@@ -5,7 +5,7 @@ export const UploadFile = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [uploaded, setUploaded] = useState();
 
-    const hostUrl = "http://localhost:5000/upload";
+    const hostUrl = "http://185.225.34.217:5001/upload";
 
     useEffect(() => {
 
